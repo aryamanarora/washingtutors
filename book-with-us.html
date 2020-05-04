@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet" type="text/css" href="main.css">
-        <script src="mail.js"></script>
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
@@ -71,7 +70,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">Booking</h3>
-                            <form class="card-text" onsubmit="mail(this)">
+                            <form class="card-text" method="POST", action="https://formspree.io/washingtutors@gmail.com">
                                 <div class="form-row">
                                     <div class="form-group col">
                                         <input type="text" class="form-control" name="firstname" placeholder="First Name">
