@@ -6,6 +6,7 @@ h1, h2, h3 {
 }
 body {
     font-family: 'Montserrat';
+    height: 100%;
 }
 strong {
     font-weight: 700;
