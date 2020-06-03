@@ -8,7 +8,6 @@ body {
     font-family: 'Montserrat';
     height: 100%;
     background-color: #343a40;
-    color: white;
 }
 strong {
     font-weight: 700;
@@ -22,8 +21,14 @@ nav {
     color: white !important;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 .card {
     border-color: #732047;
-    color: #212529;
+}
+.toast {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 200;
 }
