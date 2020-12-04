@@ -1,14 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display";
 
-h1, h2, h3 {
-    font-family: 'Playfair Display';
-}
-body {
-    font-family: 'Montserrat';
-    height: 100%;
-    background-color: #343a40;
-}
 strong {
     font-weight: 700;
 }
@@ -16,19 +8,13 @@ strong {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-nav {
-    background-color: #28ADAD !important;
-    color: white !important;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-}
-.card {
-    border-color: #732047;
-}
 .toast {
     position: fixed;
-    top: 80px;
-    right: 20px;
+    bottom: 20px;
+    left: 20px;
     z-index: 200;
+}
+
+.card:hover {
+    box-shadow: 0 .25rem .3rem rgba(0,0,0,.4)!important;
 }
