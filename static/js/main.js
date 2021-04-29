@@ -1,17 +1,17 @@
 $(function() {
-    // var popup = $(`<div class="toast" data-autohide="false">
-    //     <div class="toast-header">
-    //         <i class="fa fa-book mr-2" style="color: #28ADAD;"></i>
-    //         <strong class="mr-auto">Secretary Needed!</strong>
-    //         <small>January 31, 2020</small>
-    //         <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-    //             <span aria-hidden="true">&times;</span>
-    //         </button>
-    //     </div>
-    //     <div class="toast-body">
-    //         We are looking for a secretary to help manage our growing numbers of students and tutors. If you are interested, please <a href="./volunteer-with-us.html">volunteer</a> and mention your interest. We will be providing community service hours in compensation.
-    //     </div>
-    // </div>`)
-    // $('body').append(popup)
-    // $('.toast').toast('show')
+    var popup = $(`<div class="toast" data-autohide="false" style="background-color: #28ADAD;">
+        <div class="toast-header">
+            <i class="fa fa-book mr-2"></i>
+            <strong class="mr-auto">Happy 1 Year!</strong>
+            <small>April 29, 2021</small>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="toast-body text-white">
+            Happy 1 whole year of Washingtutors! We've come out with our first newsletter: <a href="emails/april.html" class="text-white-50">click here</a> to see it!
+        </div>
+    </div>`)
+    $('body').append(popup)
+    $('.toast').toast('show')
 })
